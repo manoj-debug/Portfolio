@@ -1,0 +1,163 @@
+body{
+    margin-top: 5%;
+}
+
+.head{
+  
+    background-image: -webkit-linear-gradient(55deg, #03b7f3 50%, #5eff0070 50%);
+}
+  .img{
+    background-color:#f1f1f1;
+     border-radius: 45%;
+
+    width: 200px;
+    height: 200px;
+  }
+  .contact{
+    padding-left: 30%;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 32px;
+  color: rgb(5, 5, 5);
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px)  {
+  .head{
+    background-image: -webkit-linear-gradient(70deg, #5eff0070 50%,  #03b7f3 50%);   
+}
+
+.contact{
+ padding: 0%
+}
+.Manoj{
+  margin-left: 35%;
+}
+.phone{
+  margin-left: 35%;
+}
+.mail{
+  margin-left: 35%;
+}
+
+
+}
+@media only screen and (max-width: 767px) and (min-width: 491px)  {
+  body{
+    margin-top: 13%;
+  }
+  .head{
+    background-image: -webkit-linear-gradient(25deg, #03b7f3 20%, #5eff0070 10%);   
+}
+.contact{
+  padding: 0%
+}
+.Manoj{
+  font-size: 27px;
+  margin-left: 30%;
+}
+.phone{
+  margin-left: 35%;
+}
+.mail{
+  margin-left: 35%;
+}
+
+.img{
+
+  width: 125px;
+  height: 125px;
+}
+
+}
+@media only screen and (max-width: 491px) and (min-width: 341px)  {
+  body{
+    margin-top: 13%;
+  }
+  .head{
+    background-image: -webkit-linear-gradient(55deg, #ffffff 50%, #ffffff70 50%);
+  }
+.img-contain{
+   position: relative;
+}
+.dpimg {
+  display: block;
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  top: 0%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  margin: 0% auto auto auto;
+ 
+  z-index: 999;
+  border-radius: 100%;
+  text-align: center;
+}
+.dpimg:before {
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: -17px;
+  bottom:-17px;
+  right:-17px;
+  border-radius: 100%;
+  border-right: 3px dotted  #0A64BC;
+  border-bottom: 3px dotted #0A64BC;
+  border-top: 3px dotted transparent;
+  border-left: 3px dotted transparent;
+ 
+}
+.dpimg:after {
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: -17px;
+  bottom:-17px;
+  right:-17px;
+  border-radius: 100%;
+  border-left: 3px dotted #ff0000;
+  border-top: 3px dotted #ff0000;
+  border-bottom: 3px dotted transparent;
+  border-right: 3px dotted transparent;
+ 
+}
+.contact{
+  margin-top: 35%;
+  padding: 0%
+}
+.Manoj{
+  font-size: 27px;
+  margin-left: 30%;
+}
+.phone{
+  margin-left: 35%;
+}
+.mail{
+  margin-left: 35%;
+}
+
+.img{
+  width: 125px;
+  height: 125px;
+
+}
+
+}
